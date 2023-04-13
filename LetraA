@@ -1,6 +1,6 @@
 package R_Alfabeto;
 
-public class LetraA implements R_Alfabeto.Letra {
+public class LetraA implements Refact {
     public char[][] desenhar() {
         char[][] arrA = {
                 {'A', 'A', 'A', 'A', 'A'},
@@ -9,6 +9,10 @@ public class LetraA implements R_Alfabeto.Letra {
                 {'A', ' ', ' ', ' ', 'A'},
                 {'A', ' ', ' ', ' ', 'A'}
         };
-        return arrA;
+
+        Escritor escritor = new Escritor();
+
+        return escritor.escrever(arrA);
     }
+
 }
