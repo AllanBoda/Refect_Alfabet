@@ -1,0 +1,14 @@
+package R_Alfabeto;
+
+    public interface Letra {
+        char[][] desenhar();
+            public static void main(String[] args) {
+                R_Alfabeto.Letra letraA = new LetraA();
+                char[][] arrA = letraA.desenhar();
+
+                Escritor escritor = new Escritor();
+                escritor.escrever(arrA);
+            }
+
+
+}
