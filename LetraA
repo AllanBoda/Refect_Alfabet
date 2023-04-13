@@ -1,0 +1,14 @@
+package R_Alfabeto;
+
+public class LetraA implements R_Alfabeto.Letra {
+    public char[][] desenhar() {
+        char[][] arrA = {
+                {'A', 'A', 'A', 'A', 'A'},
+                {'A', ' ', ' ', ' ', 'A'},
+                {'A', 'A', 'A', 'A', 'A'},
+                {'A', ' ', ' ', ' ', 'A'},
+                {'A', ' ', ' ', ' ', 'A'}
+        };
+        return arrA;
+    }
+}
