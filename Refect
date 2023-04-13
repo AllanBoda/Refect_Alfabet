@@ -1,0 +1,9 @@
+package R_Alfabeto;
+
+    public interface Refact {
+        static void main(String[] args) {
+            LetraA letraA = new LetraA();
+            letraA.desenhar();
+
+        }
+    }
